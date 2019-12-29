@@ -23,7 +23,7 @@
             </button>
         
             <div class="collapse navbar-collapse" id="navbarsExample10">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="main_page.html">Acceuille <span class="sr-only">(current)</span></a>
                 </li>
@@ -42,9 +42,50 @@
                   </div>
                 </li>
               </ul>
+
+            <span class="nav-item">
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#demo">
+                Règlement
+              </button>
+              </span>
+              
             </div>
           </nav>
     </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="demo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">Règlement</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <span class="Rules">Règles 1</span>
+        <p>
+          Ne pas utiliser le compte de vos camarade.
+        </p>
+        <span class="Rules">Règles 2</span>
+        <p>
+          Ne pas copié les cours mis a votre disposition vous risquez de prendre un 0.
+        </p>
+        <span class="Rules">Règles 3</span>
+        <p>
+          Respectez le travaille des autres sous peine d'un <span class="red_">ban permanent</span>.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">J'ai pris connaissance du règlement</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
     <section>
         <div class="jumbotron">
