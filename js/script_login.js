@@ -14,6 +14,10 @@ $( document ).ready(function() {
         {
             username: "gpequignot",
             password: "ahmed01"
+        },
+        {
+            username: "larribard",
+            password: "arribard"
         }
     ]
     
