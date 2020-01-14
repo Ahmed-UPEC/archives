@@ -18,7 +18,12 @@ $( document ).ready(function() {
         {
             username: "larribard",
             password: "arribard"
+        },
+        {
+            username: "Zayed.ek",
+            password: "Madara94"
         }
+        
     ]
     
     function verifyAccount() {
