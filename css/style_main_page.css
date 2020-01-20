@@ -13,3 +13,7 @@ footer p {
     text-decoration: underline;
     margin-bottom: 2px;
 }
+
+#pakistan:hover {
+    color: rgb(0, 88, 175) !important;
+}
